@@ -179,3 +179,20 @@ Here's the final result
 - [Monad Documentation](https://docs.monad.xyz/)
 - [Viem Documentation](https://viem.sh/)
 
+
+## Running in Claude Desktop
+- Project is in WSL: `/home/kida/monad-mcp-tutorial`.
+- Configure `C:\Users\<YourUser>\AppData\Roaming\.claude\claude_desktop_config.json`:
+  ```json
+  {
+    "mcpServers": {
+      "monad-mcp": {
+        "command": "wsl",
+        "args": [
+          "/home/kida/.nvm/versions/node/v23.11.0/bin/node",
+          "/home/kida/monad-mcp-tutorial/build/index.js"
+        ]
+      }
+    }
+  }
+
