@@ -173,9 +173,5 @@ Here's the final result
 
 ![final result](/static/final_result.gif)
 
-## Further Resources
 
-- [Model Context Protocol Documentation](https://modelcontextprotocol.io/introduction)
-- [Monad Documentation](https://docs.monad.xyz/)
-- [Viem Documentation](https://viem.sh/)
 
